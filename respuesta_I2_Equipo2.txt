@@ -1,0 +1,102 @@
+a) git remote add upstream https://github.com/attrix182/TP_SO_i2_2
+   git fetch upstream
+   git checkout master
+   git log
+   git rebase upstream/master
+   git log
+   git push -f origin master
+
+b)Solo se puede tener un remoto a la vez, si quiero cambiar a este ultimo tengo que borrar al anterior
+
+c)Si pero tuve que borrar el anterior
+para agregarlo como padre remoto: git remote add upstream ungithub
+para actualizar el repositorio al estado del repo del que hice fork : git fetch upstream
+Y por ultimo si usas el git merge upstream/master los datos no se pierden
+
+d)No, mientras la actualizacion no borre los datos que puse, permancen
+
+e) Sinisterra Luciano
+  211  git clone https://github.com/attrix182/TP_SO_i2_2-.git
+  212  cd TP_SO_i1_2-master
+  213  touch fork.txt
+  215  git commit -m "primer commit"
+  216  git init
+  217  git commit -m "primer commit"
+  218  git add.
+  219  git rm --cached README.TXT
+  222  git rm datos.txt
+  223  git add -a
+  224  git add .
+  225  git add .
+  226  ls
+  227  git rm datos.txt
+  228  git rm --cached README.TXT
+  229  git rm --cached datos.txt
+  230  ls
+  231  git rm --cached datos.txt
+  232  git rm --cached datos.txt
+  233  git rm --cached datos
+  234  ls
+  235  rm datos.txt
+  236  ls
+  237  rm README.TXT
+  238  LS
+  239  git push
+  240  git push luciano https://github.com/attrix182/-TP_SO_i2_2-.git
+  241  git push origin master
+  242  git push
+  248  git push origin master
+  250  git push
+  251  git remote add attrix182 git push luciano https://github.com/attrix182/-TP_SO_i2_2-.git
+  252  git status
+  254  git push a
+  256  git push .
+  257  git push.default
+  258  git push origin
+  264  git push origin 1
+  265  git push origin
+  266  git init
+  267  git push origin master
+  268  git push
+  295  git clone https://github.com/attrix182/TP_SO_i2_2.git
+  296  cd TP_SO_i2_2/
+  297  touch NuevoDato.txt
+  298  git add.
+  299  git add .
+  300  git commit -m "agregue nuevo dato"
+  301  git push
+  302  git config
+  303  git config email lucho.bernal@hotmail.com
+  304  git config --global user.name "attrix182"
+  305  git config --global user.email "lucho.bernal@hotmail.com"
+  306  git push
+  307  touch a
+  308  git add .
+  309  git push
+
+
+Ezequiel Segota
+git remote add upstream ungithub
+fork : git fetch upstream
+
+Matias sandoval
+1  git clone https://github.com/matia5andoval/-TP_SO_i2_2-
+   2  cd ~/Desktop/TP2/-TP_SO_i2_2-
+   3  ls
+   4  echo "Matias Sandoval, 192.168.56.1, 11:26" > fork.txt
+   5  less fork.txt
+   6  git commit -m "ALFA hecho"
+   7  git add .
+   8  git commit -m "ALFA hecho"
+   9  git push
+   10  git remote add upstream https://github.com/attrix182/TP_SO_i2_2
+   11  git fetch upstream
+   12  git checkout master
+   13  git log
+   14  git besa upstream/master
+   15  git rebase upstream/master
+   16  git log
+   17  git push -f origin master
+   18  history
+   19  git remote add upstream https://github.com/EzequielSegota/-TP_SO_i2_2-
+   20  history
